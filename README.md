@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-  <img width="900" height="577" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/eau-claires-hero.png">
+  <img width="900" height="499" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/eau-claires-hero.png">
 </h1>
 
 **<h1 align="center">"OFF WITH YOUR HAIR"**
