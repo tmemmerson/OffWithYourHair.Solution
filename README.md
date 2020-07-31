@@ -8,13 +8,13 @@
 **<h1 align="center">"OFF WITH YOUR HAIR"**
 
 
-**<h3 align = "center">
+**<h4 align = "center">
   <a href="#✅requirements">Requirements</a> •
   <a href="#💻setup">Setup</a> •
   <a href="#🔧protecting-your-data">Protecting Data</a> •
   <a href="#📫questions-and-concerns">Q's & C's</a> •
   <a href="#🔧technologies-used">Technologies</a> •
-  <a href="#🐛known-bugs">Known Bugs</a> •  
+  <a href="#🐛bugs">Bugs</a> •  
   <a href="#❤️contributors">Contributors</a> •
   <a href="#📘license">License</a>**
 
@@ -25,7 +25,7 @@
 
 </p>
 
-_Eau Claire seems to have lost her database and her head. She is in need of a database management system to collect client and stylist information. Clients are allowed one stylisy, while stylists are allowed multiple clients. Claire has asked us to write a new application to allow her to track and view all her stylists, their details, their associated clients, as well as update and add information to those individuals' records._
+_Eau Claire seems to have lost her database and her head. She is in need of a database management system to collect client and stylist information. Clients are allowed one stylist, while stylists are allowed multiple clients. Claire has asked us to write a new application to allow her to track and view all her stylists, their details, their associated clients, as well as update and add information to those individuals' records._
 
 
 ## **✅REQUIREMENTS**
