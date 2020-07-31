@@ -65,10 +65,28 @@ dotnet restore
 Finally, you can start the program with this command.
 ```js 
 dotnet run 
-```
+``` 
 
 ![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/dotnet-readme.gif "How to clone repo")
 
+
+#### **Copy and paste this code snippet into the query field in MySql Workbench. Then execute w/ Control+Shift+Enter.**
+
+```cs
+CREATE DATABASE `hair_salon` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE TABLE `clients` (
+  `ClientId` int NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) DEFAULT NULL,
+  `Note` varchar(255) DEFAULT NULL,
+  `StylistId` int DEFAULT NULL,
+  PRIMARY KEY (`ClientId`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `stylists` (
+  `StylistId` int NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`StylistId`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
 ## **🔧PROTECTING YOUR DATA**
 
 #### **Step 1: From within VSCode in the root project directory, we will create a .gitignore file**
