@@ -1,3 +1,5 @@
-.BodyStyle {
-  font-family: "Sniglet, fantasy";
+.jumbotron {
+  border: solid 1px #343a40;
+  border-radius: 10px;
+  text-align: center;
 }
