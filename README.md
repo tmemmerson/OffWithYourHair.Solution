@@ -73,20 +73,12 @@ dotnet run
 #### **Copy and paste this code snippet into the query field in MySql Workbench. Then execute w/ Control+Shift+Enter.**
 
 ```cs
+DROP DATABASE IF EXISTS `tristan_emmerson`;
 CREATE DATABASE `tristan_emmerson`;
-USE DATABASE tristan_emmerson;
-CREATE TABLE `clients` (
-  `ClientId` int NOT NULL AUTO_INCREMENT,
-  `Name` varchar(255) DEFAULT NULL,
-  `Note` varchar(255) DEFAULT NULL,
-  `StylistId` int DEFAULT NULL,
-  PRIMARY KEY (`ClientId`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-CREATE TABLE `stylists` (
-  `StylistId` int NOT NULL AUTO_INCREMENT,
-  `Name` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`StylistId`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+USE `tristan_emmerson`;
+CREATE TABLE `clients` (`ClientId` int NOT NULL AUTO_INCREMENT,`Name` varchar(255) DEFAULT NULL,`Note` varchar(255) DEFAULT NULL,`StylistId` int DEFAULT NULL,PRIMARY KEY (`ClientId`)) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `stylists` (`StylistId` int NOT NULL AUTO_INCREMENT,`Name` varchar(255) DEFAULT NULL,PRIMARY KEY (`StylistId`)) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 ## **🔧PROTECTING YOUR DATA**
 
