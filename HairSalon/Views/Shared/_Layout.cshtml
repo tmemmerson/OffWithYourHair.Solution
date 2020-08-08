@@ -9,12 +9,13 @@
     <link rel="icon" type="image/png" href="https://coding-assets.s3-us-west-2.amazonaws.com/favicon-salon.png">
   </head>
   <body class="bodyStyle" background="https://coding-assets.s3-us-west-2.amazonaws.com/img/newbg-hairsalon.jpg">
-    <div class= "container">
+      @Html.Partial("Navigation")
       <div class="jumbotron" style="opacity:90%;">
         @RenderBody()
         @RenderSection("new", required: false)
         <section class="new"></section>
+        @Html.Partial("Footer")
       </div>
-    </div>
+    
   </body>
 </html>
