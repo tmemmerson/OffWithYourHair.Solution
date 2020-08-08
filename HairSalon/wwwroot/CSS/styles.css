@@ -1,15 +1,9 @@
 body {
-  background-image: url(https://coding-assets.s3-us-west-2.amazonaws.com/img/newbg-hairsalon.jpg);
+  background-image: url(https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/eau-claire-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: 'Montserrat', sans-serif;
   background-color: #8edffd;
-}
-
-.jumbotron {
-  border: solid 1px #343a40;
-  border-radius: 10px;
-  text-align: center;
 }
 
 div#footer {
@@ -27,6 +21,7 @@ div#footer {
   background-color:rgba(250, 240, 0, 0.85);
   font-family: 'Patrick Hand', cursive;
 }
+
 .container {
   margin-top: 3%;
   margin-bottom: 3%;
